@@ -3,6 +3,8 @@ import ThemeToggle from "./ThemeToggle";
 import TripleDisplay from "./TripleDisplay";
 import EvenIndicator from "./EvenIndicator";
 import NumberFact from "./NumberFact";
+import ResetCounter from "./ResetCounter";
+import MathFact from "./mathFact";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <TripleDisplay />
       <EvenIndicator />
       <NumberFact />
+      <MathFact />
+      <ResetCounter />
     </div>
   );
 }
