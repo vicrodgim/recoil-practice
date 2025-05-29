@@ -1,0 +1,31 @@
+body {
+  transition: background-color 0.3s ease, color 0.3 ease;
+  font-family: sans-serif;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+body.light button {
+  background-color: #eeeeee;
+  color: #000;
+}
+
+body.dark button {
+  background-color: #333333;
+  color: #fff;
+}
