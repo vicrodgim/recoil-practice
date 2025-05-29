@@ -1,11 +1,12 @@
-import Counter from "./Counter";
-import ThemeToggle from "./ThemeToggle";
-import TripleDisplay from "./TripleDisplay";
-import EvenIndicator from "./EvenIndicator";
-import NumberFact from "./NumberFact";
-import ResetCounter from "./ResetCounter";
-import MathFact from "./mathFact";
-import FactList from "./FactList";
+import Counter from "./components/Counter";
+import ThemeToggle from "./components/ThemeToggle";
+import TripleDisplay from "./components/TripleDisplay";
+import EvenIndicator from "./components/EvenIndicator";
+import NumberFact from "./components/NumberFact";
+import ResetCounter from "./components/ResetCounter";
+import MathFact from "./components/MathFact";
+import FactList from "./components/FactList";
+import FactWithType from "./components/FactWithType";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <NumberFact />
       <MathFact />
       <FactList />
+      <FactWithType />
       <ResetCounter />
     </div>
   );

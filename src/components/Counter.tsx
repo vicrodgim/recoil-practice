@@ -1,5 +1,5 @@
 import React from "react";
-import { counterState } from "./state/counterAtom";
+import { counterState } from "../state/counterAtom";
 import { useRecoilState } from "recoil";
 
 export default function Counter() {

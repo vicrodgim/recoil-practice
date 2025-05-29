@@ -1,5 +1,5 @@
 import { useRecoilValueLoadable } from "recoil";
-import { numberFactFamily } from "./state/numberFactFamily";
+import { numberFactFamily } from "../state/numberFactFamily";
 
 export default function FactForNumber({ number }: { number: number }) {
   const factLoadable = useRecoilValueLoadable(numberFactFamily(number));

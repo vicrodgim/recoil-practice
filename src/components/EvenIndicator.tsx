@@ -1,4 +1,4 @@
-import { isEvenState } from "./state/isEvenSelector";
+import { isEvenState } from "../state/isEvenSelector";
 import { useRecoilValue } from "recoil";
 
 export default function EvenIndicator() {

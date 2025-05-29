@@ -1,5 +1,5 @@
 import { useRecoilValueLoadable } from "recoil";
-import { mathFactState } from "./state/mathFactSelector";
+import { mathFactState } from "../state/mathFactSelector";
 
 export default function MathFact() {
   const loadableMathFact = useRecoilValueLoadable(mathFactState);

@@ -1,5 +1,5 @@
 import { useRecoilValueLoadable } from "recoil";
-import { numberFactState } from "./state/numberFactSelector";
+import { numberFactState } from "../state/numberFactSelector";
 
 export default function NumberFact() {
   const factLoadable = useRecoilValueLoadable(numberFactState);

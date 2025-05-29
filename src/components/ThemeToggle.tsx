@@ -1,4 +1,4 @@
-import { themeState } from "./state/themeState";
+import { themeState } from "../state/themeState";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import { useEffect } from "react";
 

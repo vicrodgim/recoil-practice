@@ -1,5 +1,5 @@
 import { useRecoilValue } from "recoil";
-import { tripleCountState } from "./state/tripleCountSelector";
+import { tripleCountState } from "../state/tripleCountSelector";
 
 export default function TripleDisplay() {
   const triple = useRecoilValue(tripleCountState);
