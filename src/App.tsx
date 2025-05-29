@@ -5,6 +5,7 @@ import EvenIndicator from "./EvenIndicator";
 import NumberFact from "./NumberFact";
 import ResetCounter from "./ResetCounter";
 import MathFact from "./mathFact";
+import FactList from "./FactList";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <EvenIndicator />
       <NumberFact />
       <MathFact />
+      <FactList />
       <ResetCounter />
     </div>
   );
