@@ -2,6 +2,8 @@ import Counter from "./Counter";
 import ThemeToggle from "./ThemeToggle";
 import TripleDisplay from "./TripleDisplay";
 import EvenIndicator from "./EvenIndicator";
+import NumberFact from "./NumberFact";
+
 function App() {
   return (
     <div style={{ padding: "2rem" }}>
@@ -10,6 +12,7 @@ function App() {
       <ThemeToggle />
       <TripleDisplay />
       <EvenIndicator />
+      <NumberFact />
     </div>
   );
 }
