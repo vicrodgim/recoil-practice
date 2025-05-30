@@ -7,6 +7,7 @@ import ResetCounter from "./components/ResetCounter";
 import MathFact from "./components/MathFact";
 import FactList from "./components/FactList";
 import FactWithType from "./components/FactWithType";
+import SubmitForm from "./components/SubmitForm";
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
       <ThemeToggle />
       <TripleDisplay />
       <EvenIndicator />
+      <ResetCounter />
       <NumberFact />
       <MathFact />
       <FactList />
       <FactWithType />
-      <ResetCounter />
+      <SubmitForm />
     </div>
   );
 }
