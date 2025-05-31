@@ -8,6 +8,7 @@ import MathFact from "./components/MathFact";
 import FactList from "./components/FactList";
 import FactWithType from "./components/FactWithType";
 import SubmitForm from "./components/SubmitForm";
+import ResetAll from "./components/ResetAll";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <FactList />
       <FactWithType />
       <SubmitForm />
+      <ResetAll />
     </div>
   );
 }
